@@ -2,7 +2,7 @@
 int main() {
 	double g[10],c[10],s1,s2=0,s3=0,sum;
 	int x;
-	printf("Number of subjects : ");
+	printf("Number of subjects (max 8): ");
 	scanf_s("%d", &x);
 	if (x > 0 && x <= 8)
 	{
